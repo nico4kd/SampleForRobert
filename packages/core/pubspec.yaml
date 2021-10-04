@@ -1,0 +1,26 @@
+name: core
+description: Flutter package .
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  cache:
+    path: ../cache
+  connectivity_plus: ^1.1.0
+  dartz: ^0.10.0
+  dio: ^4.0.0
+  errors:
+    path: ../errors
+  flash: ^2.0.2
+  flutter:
+    sdk: flutter
+  # internet_connection_checker: ^0.0.1+2
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^2.3.0
